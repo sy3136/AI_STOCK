@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#3B3E4E"
+    android:background="#FFFFFF"
     tools:context=".LoginActivity">
 
     <LinearLayout
@@ -27,17 +27,6 @@
                 android:layout_height="50dp"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/barchart2" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="주 파 고"
-                android:textColor="#EC4880"
-                android:textSize="40dp"
-                android:layout_centerInParent="true"
-                android:layout_marginLeft="30dp"
-                android:fontFamily="@font/nanumbarunpenbold"
-                android:id="@+id/Title" />
         </LinearLayout>
 
         <LinearLayout

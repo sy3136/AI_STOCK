@@ -106,16 +106,6 @@
                 android:layout_height="25dp"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/barchart2" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="주 파 고"
-                android:textColor="#E91E63"
-                android:textSize="20dp"
-                android:layout_centerInParent="true"
-                android:layout_marginLeft="30dp"
-                android:fontFamily="@font/nanumbarunpenbold" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

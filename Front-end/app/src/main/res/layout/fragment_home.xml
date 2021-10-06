@@ -26,7 +26,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:text="Home"
-                    android:textColor="#FFFFFF"
+                    android:textColor="#000000"
                     android:textSize="20dp"
                     android:textStyle="bold" />
                 <LinearLayout
@@ -35,45 +35,13 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_gravity="center_horizontal">
+
                     <ImageView
-                        android:layout_marginLeft="30dp"
-                        android:layout_width="150dp"
+                        android:layout_width="349dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/personstock"/>
-                    <LinearLayout
-                        android:layout_marginTop="20dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal"
-                            android:layout_gravity="center_horizontal">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/nanumbarunpenbold"
-                                android:textSize="40dp"
-                                android:textColor="#EF4780"
-                                android:text="주파고"/>
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="5dp"
-                                android:fontFamily="@font/nanumbarunpenbold"
-                                android:textSize="30dp"
-                                android:textColor="#fff"
-                                android:text="와 함께"/>
-                        </LinearLayout>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/nanumbarunpenbold"
-                            android:textSize="30dp"
-                            android:textColor="#fff"
-                            android:text="투자하세요."/>
-                    </LinearLayout>
+                        android:layout_marginLeft="30dp"
+                        android:src="@drawable/personstock" />
+
                 </LinearLayout>
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
